@@ -1,0 +1,170 @@
+
+
+body {
+    background: #2b2b2b;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;   /* space from top like inspo */
+}
+
+
+.intro {
+    background: #1f1f1f;
+    border-radius: 12px;
+    padding: 14px;
+    text-align: left;
+    color: #e5e5e5;
+    padding-bottom: 2px;
+}
+
+.intro-logo {
+    width: 42px;
+    margin-bottom: 4px;
+}
+.logo{
+    margin: 20px 0 10px;
+}
+
+.intro-desc {
+    font-size: 12px;
+    opacity: 0.6;
+    margin-bottom: 6px;
+}
+.email{
+    font-size: 12px;
+    opacity: 0.6;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.intro-link {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+.intro-link:hover {
+    opacity: 1;
+}
+
+.panel {
+    width: 420px;
+    max-width: 100%;
+    background: #1f1f1f;
+    border-radius: 12px;
+    padding: 12px;        /* smaller like inspo */
+    color: #e5e5e5;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+}
+.link-item {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2px;   /* tighter */
+    border-radius: 6px;
+    margin: 0 10px;
+}
+.item2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2px;   /* tighter */
+    border-radius: 6px;
+    margin: 0 10px;
+}
+.item .title {
+    font-weight: 500;
+    font-size: 13px;
+}
+.item2 .title{
+    font-size: 11px;
+    opacity: 0.7;
+}
+.item2 i{
+    font-size: 11px;
+}
+.item:hover {
+    background: #1e1d1d;
+    cursor: pointer;
+}
+.item .title{
+   transition: transform 0.2s ease;
+}
+.item:hover .title {
+    transform: translateX(4px);
+}
+
+.item2:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: #fff;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+
+.desc {
+    font-size: 12px;
+    opacity: 0.5;
+    margin-left: 8px;   /* small gap like inspo */
+}
+
+.right {
+    font-size: 11px;
+    opacity: 0.5;
+}
+
+.divider {
+    height: 1px;
+    background: rgba(255,255,255,0.08);
+    margin: 10px 0;
+}
+
+.follow {
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 0 2px;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    font-size: 12px;
+}
+
+.social span {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.social i{
+    font-size: 11px;
+    padding-right: 5px;
+}
+
+.social span:hover {
+    opacity: 1;
+}
+@media (max-width: 600px) {
+    .panel {
+        margin-top: 120px;
+    }
+}
