@@ -162,10 +162,6 @@ body {
 .social span:hover {
     opacity: 1;
 }
-@media (max-width: 600px) {
-    .panel {
-        margin-top: 100px;
-    }
-}
+
 
 
