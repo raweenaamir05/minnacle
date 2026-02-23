@@ -104,7 +104,6 @@ body {
 }
 
 .item2:hover{
-    cursor: pointer;
     opacity: 1;
     color: #fff;
 }
@@ -168,4 +167,5 @@ body {
         margin-top: 100px;
     }
 }
+
 
